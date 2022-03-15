@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material/styles";
+import { createTheme, ThemeProvider as MuiThemeProvider } from "@mui/material/styles";
 import design from "./design-tokens.tokens_test.json";
 
 const mappedTheme = {
@@ -15,5 +15,7 @@ const mappedTheme = {
 };
 
 export const theme = createTheme(mappedTheme);
+
+export const ThemeProvider = props => <MuiThemeProvider theme={theme} {...props} />
 
 export default theme
