@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.0"
+  },
+  "name": "sample-ui-lib",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwoods/sample-ui-lib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danwoods/sample-ui-lib/issues"
+  },
+  "homepage": "https://github.com/danwoods/sample-ui-lib#readme"
+}
