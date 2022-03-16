@@ -22,12 +22,14 @@ console.log(
 )
 
 module.exports = {
+  mode: 'development',
   entry: glob.sync('./components/**/index.tsx').reduce((acc, path) => {
     const entry = path.replace('/index.tsx', '')
     acc[entry] = path
     return acc
   }, {}),
   output: {
+    // module: true,
     filename: './[name]/index.js',
     path: path.resolve(__dirname, './dist'),
     library: {
