@@ -22,22 +22,19 @@ console.log(
 )
 
 module.exports = {
-  // entry: path.resolve(__dirname, './theme.tsx'),
   entry: glob.sync('./components/**/index.tsx').reduce((acc, path) => {
     const entry = path.replace('/index.tsx', '')
     acc[entry] = path
     return acc
   }, {}),
   output: {
-    // path: path.resolve(__dirname, './dist'),
-    // filename: 'index.js',
     filename: './[name]/index.js',
     path: path.resolve(__dirname, './dist'),
     library: {
       // libraryTarget: 'commonjs',
-      name: 'Spruce',
+      // name: 'Spruce',
       type: 'umd',
-      export: 'default'
+      // export: 'default'
     }
   },
   module: {
