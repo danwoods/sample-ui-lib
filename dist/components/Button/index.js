@@ -1278,7 +1278,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Button = void 0;\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Button_1 = __webpack_require__(/*! @mui/material/Button */ \"./node_modules/@mui/material/Button/index.js\");\nvar Button = function (_a) {\n    var labelText = _a.labelText;\n    return (React.createElement(Button_1.default, null, labelText));\n};\nexports.Button = Button;\nexports[\"default\"] = exports.Button;\n\n\n//# sourceURL=webpack://sample-ui-lib/./components/Button/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Button = void 0;\n// import * as React from 'react';\nvar Button_1 = __webpack_require__(/*! @mui/material/Button */ \"./node_modules/@mui/material/Button/index.js\");\nvar Button = function (_a) {\n    var labelText = _a.labelText;\n    return (React.createElement(Button_1.default, null, labelText));\n};\nexports.Button = Button;\nexports[\"default\"] = exports.Button;\n\n\n//# sourceURL=webpack://sample-ui-lib/./components/Button/index.tsx?");
 
 /***/ }),
 
