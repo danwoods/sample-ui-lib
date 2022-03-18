@@ -239,6 +239,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/@mui/material/Button/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/@mui/material/Button/index.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"buttonClasses\": () => (/* reexport safe */ _buttonClasses__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   \"default\": () => (/* reexport safe */ _Button__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   \"getButtonUtilityClass\": () => (/* reexport safe */ _buttonClasses__WEBPACK_IMPORTED_MODULE_1__.getButtonUtilityClass)\n/* harmony export */ });\n/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button */ \"./node_modules/@mui/material/Button/Button.js\");\n/* harmony import */ var _buttonClasses__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./buttonClasses */ \"./node_modules/@mui/material/Button/buttonClasses.js\");\n\n\n\n\n//# sourceURL=webpack://sample-ui-lib/./node_modules/@mui/material/Button/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@mui/material/ButtonBase/ButtonBase.js":
 /*!*************************************************************!*\
   !*** ./node_modules/@mui/material/ButtonBase/ButtonBase.js ***!
@@ -1264,10 +1275,10 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /*!*************************************!*\
   !*** ./components/Button/index.tsx ***!
   \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Button\": () => (/* binding */ Button),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material/Button */ \"./node_modules/@mui/material/Button/Button.js\");\n\n\nvar Button = function (_a) {\n    var labelText = _a.labelText;\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Button__WEBPACK_IMPORTED_MODULE_1__[\"default\"], { variant: \"contained\", size: \"large\" }, labelText));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);\n\n\n//# sourceURL=webpack://sample-ui-lib/./components/Button/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexports.Button = void 0;\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Button_1 = __webpack_require__(/*! @mui/material/Button */ \"./node_modules/@mui/material/Button/index.js\");\nvar Button = function (_a) {\n    var labelText = _a.labelText;\n    return (react_1.default.createElement(Button_1.default, { variant: \"contained\", size: \"large\" }, labelText));\n};\nexports.Button = Button;\nexports[\"default\"] = exports.Button;\n\n\n//# sourceURL=webpack://sample-ui-lib/./components/Button/index.tsx?");
 
 /***/ }),
 
@@ -1516,7 +1527,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
 /******/ 	var __webpack_exports__ = __webpack_require__("./components/Button/index.tsx");
 /******/ 	
 /******/ 	return __webpack_exports__;
