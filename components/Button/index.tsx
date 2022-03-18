@@ -1,8 +1,10 @@
 import React from 'react'
-import Button from '@mui/material/Button'
+import MuiButton from '@mui/material/Button'
 
-export default ({ labelText }: {labelText: string}) => (
-  <Button variant="contained" size="large">
+export const Button = ({ labelText }: {labelText: string}) => (
+  <MuiButton variant="contained" size="large">
     {labelText}
-  </Button>
+  </MuiButton>
 )
+
+export default Button
