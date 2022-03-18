@@ -1,10 +1,10 @@
 import * as React from 'react';
-// import MuiButton from '@mui/material/Button'
+import MuiButton from '@mui/material/Button'
 
 export const Button = ({ labelText }: {labelText: string}) => (
-  <button>
+  <MuiButton>
     {labelText}
-  </button>
+  </MuiButton>
 )
 
 export default Button
