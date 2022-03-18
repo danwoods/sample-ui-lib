@@ -35,6 +35,9 @@ module.exports = {
       type: 'umd',
     }
   },
+  externals: {
+    React: 'react',
+  },
   module: {
     rules: [
       {
