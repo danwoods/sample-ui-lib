@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SimpleButton } from '../components/SimpleButton/index';
+import { SimpleButton } from '../src/components/SimpleButton/index';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

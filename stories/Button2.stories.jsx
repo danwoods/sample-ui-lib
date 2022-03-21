@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MuiButton } from '../components/MuiButton/index';
+import { MuiButton } from '../src/components/MuiButton/index';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
