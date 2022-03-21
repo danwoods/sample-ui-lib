@@ -7,7 +7,6 @@ import json from '@rollup/plugin-json';
 import { defineConfig } from 'rollup';
 
 const glob = require('glob')
-// const path = require('path')
 
 // Collect all components; place them at the top level
 const components = glob.sync('./src/components/**/index.tsx').reduce((acc, path) => {
@@ -16,11 +15,8 @@ const components = glob.sync('./src/components/**/index.tsx').reduce((acc, path)
     return acc
   }, {})
 
-  const theme = {'Theme/index': './src/Theme/index.tsx'}
+const theme = {'Theme/index': './src/Theme/index.tsx'}
 
-  // console.log(input)
-
-import pkg from './package.json'
 
 export default defineConfig({
   input: {...components, ...theme},

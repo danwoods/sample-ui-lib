@@ -1,4 +1,4 @@
-import { P as PropTypes, _ as _extends, g as generateUtilityClass, c as createCommonjsModule, u as unwrapExports, m as memoize, w as withEmotionCache, s as serializeStyles, T as ThemeContext, i as isBrowser$3, a as insertStyles, b as useInsertionEffectMaybe$1, r as registerStyles, d as getRegisteredStyles, e as merge$1, f as style, h as responsivePropType, j as createUnaryUnit, k as handleBreakpoints, l as getValue, v as values$1, n as spacing, o as createEmptyBreakpointObject, p as removeUnusedBreakpoints, q as _objectWithoutPropertiesLoose, t as capitalize, x as createTheme, y as useTheme, z as createTheme$1, A as alpha, B as __assign } from '../createTheme-8dd0c872.js';
+import { P as PropTypes, _ as _extends, g as generateUtilityClass, c as createCommonjsModule, u as unwrapExports, m as memoize, w as withEmotionCache, s as serializeStyles, T as ThemeContext, i as isBrowser$3, a as insertStyles, b as useInsertionEffectMaybe$1, r as registerStyles, d as getRegisteredStyles, e as merge$1, f as style, h as responsivePropType, j as createUnaryUnit, k as handleBreakpoints, l as getValue, v as values$1, n as spacing, o as createEmptyBreakpointObject, p as removeUnusedBreakpoints, q as _objectWithoutPropertiesLoose, t as capitalize, x as createTheme, y as useTheme, z as createTheme$1, A as alpha, B as __rest, C as __assign } from '../createTheme-0930b11c.js';
 import * as React from 'react';
 import React__default, { useContext, createElement, useRef, Fragment, useLayoutEffect, Children, isValidElement, cloneElement } from 'react';
 import reactIs, { Memo, ForwardRef } from 'react-is';
@@ -3607,7 +3607,7 @@ process.env.NODE_ENV !== "production" ? Button.propTypes
 var Button$1 = Button;
 
 var MuiButton = function (_a) {
-    var labelText = _a.labelText, color = _a.color, muiProps = _a.muiProps;
+    var labelText = _a.labelText, color = _a.color, muiProps = __rest(_a, ["labelText", "color"]);
     return (React.createElement(Button$1, __assign({ color: color }, muiProps), labelText));
 };
 
