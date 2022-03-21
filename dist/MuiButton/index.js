@@ -3607,8 +3607,8 @@ process.env.NODE_ENV !== "production" ? Button.propTypes
 var Button$1 = Button;
 
 var MuiButton = function (_a) {
-    var labelText = _a.labelText, muiProps = _a.muiProps;
-    return (React.createElement(Button$1, __assign({}, muiProps), labelText));
+    var labelText = _a.labelText, color = _a.color, muiProps = _a.muiProps;
+    return (React.createElement(Button$1, __assign({ color: color }, muiProps), labelText));
 };
 
 export { MuiButton, MuiButton as default };
