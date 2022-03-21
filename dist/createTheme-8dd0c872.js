@@ -2,6 +2,32 @@ import * as React from 'react';
 import { createContext, useContext, createElement, Fragment, forwardRef } from 'react';
 import reactIs from 'react-is';
 
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
   var target = {};
@@ -3716,5 +3742,5 @@ function createTheme(options = {}, ...args) {
   return muiTheme;
 }
 
-export { alpha as A, useTheme$2 as B, ThemeContext$1 as C, PropTypes as P, ThemeContext$2 as T, _extends as _, insertStyles as a, useInsertionEffectMaybe as b, createCommonjsModule as c, getRegisteredStyles as d, merge as e, style$1 as f, generateUtilityClass as g, responsivePropType$1 as h, isBrowser as i, createUnaryUnit as j, handleBreakpoints as k, getValue as l, memoize$1 as m, spacing as n, createEmptyBreakpointObject as o, removeUnusedBreakpoints as p, _objectWithoutPropertiesLoose as q, registerStyles as r, serializeStyles as s, capitalize as t, unwrapExports as u, values as v, withEmotionCache as w, createTheme$1 as x, useTheme as y, createTheme as z };
-//# sourceMappingURL=createTheme-d0ee18d9.js.map
+export { alpha as A, __assign as B, useTheme$2 as C, ThemeContext$1 as D, PropTypes as P, ThemeContext$2 as T, _extends as _, insertStyles as a, useInsertionEffectMaybe as b, createCommonjsModule as c, getRegisteredStyles as d, merge as e, style$1 as f, generateUtilityClass as g, responsivePropType$1 as h, isBrowser as i, createUnaryUnit as j, handleBreakpoints as k, getValue as l, memoize$1 as m, spacing as n, createEmptyBreakpointObject as o, removeUnusedBreakpoints as p, _objectWithoutPropertiesLoose as q, registerStyles as r, serializeStyles as s, capitalize as t, unwrapExports as u, values as v, withEmotionCache as w, createTheme$1 as x, useTheme as y, createTheme as z };
+//# sourceMappingURL=createTheme-8dd0c872.js.map

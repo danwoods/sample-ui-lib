@@ -1,6 +1,6 @@
+import { P as PropTypes, _ as _extends, g as generateUtilityClass, c as createCommonjsModule, u as unwrapExports, m as memoize, w as withEmotionCache, s as serializeStyles, T as ThemeContext, i as isBrowser$3, a as insertStyles, b as useInsertionEffectMaybe$1, r as registerStyles, d as getRegisteredStyles, e as merge$1, f as style, h as responsivePropType, j as createUnaryUnit, k as handleBreakpoints, l as getValue, v as values$1, n as spacing, o as createEmptyBreakpointObject, p as removeUnusedBreakpoints, q as _objectWithoutPropertiesLoose, t as capitalize, x as createTheme, y as useTheme, z as createTheme$1, A as alpha, B as __assign } from '../createTheme-8dd0c872.js';
 import * as React from 'react';
 import React__default, { useContext, createElement, useRef, Fragment, useLayoutEffect, Children, isValidElement, cloneElement } from 'react';
-import { P as PropTypes, _ as _extends, g as generateUtilityClass, c as createCommonjsModule, u as unwrapExports, m as memoize, w as withEmotionCache, s as serializeStyles, T as ThemeContext, i as isBrowser$3, a as insertStyles, b as useInsertionEffectMaybe$1, r as registerStyles, d as getRegisteredStyles, e as merge$1, f as style, h as responsivePropType, j as createUnaryUnit, k as handleBreakpoints, l as getValue, v as values$1, n as spacing, o as createEmptyBreakpointObject, p as removeUnusedBreakpoints, q as _objectWithoutPropertiesLoose, t as capitalize, x as createTheme, y as useTheme, z as createTheme$1, A as alpha } from '../createTheme-d0ee18d9.js';
 import reactIs, { Memo, ForwardRef } from 'react-is';
 import { jsx, jsxs } from 'react/jsx-runtime';
 
@@ -3607,8 +3607,8 @@ process.env.NODE_ENV !== "production" ? Button.propTypes
 var Button$1 = Button;
 
 var MuiButton = function (_a) {
-    var labelText = _a.labelText;
-    return (React.createElement(Button$1, null, labelText));
+    var labelText = _a.labelText, muiProps = _a.muiProps;
+    return (React.createElement(Button$1, __assign({}, muiProps), labelText));
 };
 
 export { MuiButton, MuiButton as default };
