@@ -7,7 +7,7 @@ import { defineConfig } from 'rollup';
 const glob = require('glob')
 // const path = require('path')
 
-const input = glob.sync('./components/**/index.tsx').reduce((acc, path) => {
+const input = glob.sync('./src/components/**/index.tsx').reduce((acc, path) => {
     const entry = path.replace('/index.tsx', '/index').replace('./', '')
     acc[entry] = path
     return acc
@@ -21,13 +21,12 @@ import pkg from './package.json'
 export default defineConfig({
   input, //: './components/MuiButton/index.tsx',
   output: {
-      // file: './dist/components/MuiButton/index.js',
       dir: './dist',
       format: 'es',
       exports: 'named',
       sourcemap: true
     },
-  external: ["react", /*"@material-ui/core",*/ "react-is", 'react/jsx-runtime' ],
+  external: ["react", "react-is", 'react/jsx-runtime' ],
   plugins: [
     external(),
     resolve(),
