@@ -8,7 +8,7 @@ const glob = require('glob')
 // const path = require('path')
 
 const input = glob.sync('./src/components/**/index.tsx').reduce((acc, path) => {
-    const entry = path.replace('/index.tsx', '/index').replace('./', '')
+    const entry = path.replace('/index.tsx', '/index').replace('./src/components/', '')
     acc[entry] = path
     return acc
   }, {})
